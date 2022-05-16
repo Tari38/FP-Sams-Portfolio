@@ -1,0 +1,139 @@
+body {
+    margin-top: 80px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* navbar */
+
+nav {
+    height: 80px;
+    width: 100%;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+.brand {
+    top: 10px;
+    left: 30px;
+    padding: 10px 20px;
+    color: rgb(170, 207, 241);
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    color:rgb(170, 207, 241);
+    visibility: visible;
+    list-style-type: none;
+}
+
+.navbar-nav {
+    display: flex;
+    color:rgb(170, 207, 241);
+    visibility: visible;
+}
+
+.nav-link {
+    text-align: center;
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color:rgb(170, 207, 241);
+    color: #000;
+}
+
+.nav-item {
+    font-size: 2rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.navbar-toggler {
+    background-color:rgb(170, 207, 241);
+    margin-right: 30px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 920px) {
+    .navbar-toggler {
+        visibility: visible;
+        top: 10px;
+        right: 10px;
+        position: fixed;
+    }
+    .topnav {
+        visibility: hidden;
+    }
+}
+
+.navbar-collapse {
+    background-color: #222;
+}
+.navbar-collapse .nav-link {
+    color: rgb(170, 207, 241);
+}
+
+.navbar-collapse .nav-link:hover {
+    color: #111;
+}
+/* navbar end */
+
+/* home page */
+
+section {
+    border: 2px solid rgb(170, 207, 241);
+    border-radius: 0 0 20px 20px;
+    background-color:rgb(170, 207, 241);
+    padding-top: 30px;
+    box-shadow: 2px 2px #111;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+
+/* about page */
+
+.about-header {
+    font-family: "Montserrat Alternates", monospace;
+    color:rgb(170, 207, 241);
+    background-color: #222;
+    margin-top: 90px;
+}
+
+#img {
+    background-image: url("./images/gamer-bg.webp");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hr-line {
+    height: 5px;
+    background-color: rgb(170, 207, 241);
+    border: 1px solid rgb(170, 207, 241);
+}
+
+.about-p {
+    padding: 20px;  
+    border: 2px dashed rgb(170, 207, 241);
+}
+
+button {
+    background-color:rgb(170, 207, 241);
+    color: #111;
+    transition: .3s ease-out;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #111;
+    color: rgb(170, 207, 241);
+    transform: scale(1.1);
+    transition: .3s ease-in;
+}
