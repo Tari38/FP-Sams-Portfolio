@@ -134,25 +134,8 @@ p {
     padding: 5px 0;
 }
 
-/* #carouselExampleDark {
-    width: 100%;
-    margin: auto;
-
-} */
-
-.carousel-item1 {
-    background-image: url("./images/skills/html5.png");
-    background-size: cover;
+.carousel-item {
+   width: 50%;
+   margin: auto;
+   padding: 10px;
 }
-
-.carousel-item2 {
-    background-image: url("./images/skills/css3.png");
-    background-size: cover;
-}
-
-.carousel-item3 {
-    background-image: url("./images/skills/git2.png");
-    background-size: cover;
-}
-
-
