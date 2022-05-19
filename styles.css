@@ -1,3 +1,7 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat Alternates', sans-serif; */
+
 body {
     margin-top: 80px;
     font-family: "Montserrat", sans-serif;
@@ -7,25 +11,18 @@ body {
 /* navbar */
 
 nav {
-    height: 80px;
+    height: 100px;
     width: 100%;
     justify-content: space-evenly;
     position: fixed;
 }
 
-.brand {
+.navbar-brand {
+    font-family: 'Lobster', cursive;
     top: 10px;
     left: 30px;
     padding: 10px 20px;
     color: rgb(170, 207, 241);
-}
-
-.topnav {
-    display: flex;
-    flex-direction: row;
-    color:rgb(170, 207, 241);
-    visibility: visible;
-    list-style-type: none;
 }
 
 .navbar-nav {
@@ -35,15 +32,24 @@ nav {
 }
 
 .nav-link {
+    font-family: 'Lobster', cursive;
+    color: rgb(170, 207, 241);
     text-align: center;
     list-style-type: none;
-    margin: 0 20px;
-    padding: 10px;
+    padding: 0 10px;
+}
+
+.nav-link::after, .nav-link::before {
+    content: '|';
 }
 
 .nav-link:hover {
     background-color:rgb(170, 207, 241);
     color: #000;
+}
+
+.nav-link:active {
+    text-decoration: underline;
 }
 
 .nav-item {
@@ -57,11 +63,14 @@ nav {
     margin-right: 30px;
     visibility: hidden;
 }
+.navbar-toggler:hover {
+    background-color: rgb(170, 207, 241);
+}
 
 @media screen and (max-width: 920px) {
     .navbar-toggler {
         visibility: visible;
-        top: 10px;
+        top: 20px;
         right: 10px;
         position: fixed;
     }
@@ -70,14 +79,28 @@ nav {
     }
 }
 
-.navbar-collapse {
+.offcanvas {
     background-color: #222;
+    
 }
-.navbar-collapse .nav-link {
+
+.offcanvas-header {
+    font-family: "Lobster", cursive;
     color: rgb(170, 207, 241);
 }
 
-.navbar-collapse .nav-link:hover {
+.btn-close {
+    background-color: rgb(170, 207, 241);
+}
+
+.btn-close:hover {
+    background-color: rgb(170, 207, 241, 1);
+}
+.offcanvas .nav-link {
+    color: rgb(170, 207, 241);
+}
+
+.offcanvas .nav-link:hover {
     color: #111;
 }
 /* navbar end */
@@ -85,15 +108,50 @@ nav {
 /* home page */
 
 section {
-    border: 2px solid rgb(170, 207, 241);
-    border-radius: 0 0 20px 20px;
-    background-color:rgb(170, 207, 241);
+    border: 1px solid rgb(170, 207, 241);
+    background-color:rgb(221, 236, 250);
     padding-top: 30px;
-    box-shadow: 2px 2px #111;
 }
 
-h2, h3 {
+article {
+    background-color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+    padding: 5px 0;
+}
+
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+/* #carouselExampleDark {
+    width: 100%;
+    margin: auto;
+
+} */
+
+.carousel-item1 {
+    background-image: url("./images/skills/html5.png");
+    background-size: cover;
+}
+
+.carousel-item2 {
+    background-image: url("./images/skills/css3.png");
+    background-size: cover;
+}
+
+.carousel-item3 {
+    background-image: url("./images/skills/git2.png");
+    background-size: cover;
 }
 
 
