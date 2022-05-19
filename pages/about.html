@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&family=Montserrat+Alternates:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="../styles/about.css">
     <title>About Me</title>
 </head>
@@ -29,13 +32,13 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="../pages/home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About Me</a>
+                  <a class="nav-link" href="../pages/about.html">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
+                    <a class="nav-link" href="../pages/projects.html">Projects</a>
                 </li>
               </ul>
               
@@ -46,15 +49,21 @@
       
     <!-- about page -->
 
-    <h1 class="about-header">Who am I?</h1>
-    <hr class="hr-line" />
-    <p class="about-p">I'm a mum to 1 daughter, and absolutely love gaming. I was first introduced to a computer at a young age in the early 80's with a Commodore 64. My favourite game at the time was called Little Computer People (it was basically the early version of The Sims!) The cassette tapes took about 30 minutes to load, and then sometimes they would crash so it could take a reallllllly long time before you actually got to play anything!</p>
+    <div class="container">
+      <h1 class="about-header">Who am I?</h1>
+        <hr class="hr-line" />
+        <section class="card">
+          <img class="img-fluid" src="../images/avatars/myImage.jpg" alt="Samantha Dorrell">
+        </section>
+        <p class="about-p">I'm a mum to 1 daughter, and absolutely love gaming. I was first introduced to a computer at a young age in the early 80's with a Commodore 64. My favourite game at the time was called Little Computer People (it was basically the early version of The Sims!) The cassette tapes took about 30 minutes to load, and then sometimes they would crash so it could take a reallllllly long time before you actually got to play anything!</p>
 
-    <p class="about-p">As I grew up, we were introduced to the ever changing tech world of gaming (thanks mum). To have seen how technology has progressed over the past four decades has been fascinating and made me want to learn about code and how games were created.</p>
+        <p class="about-p">As I grew up, we were introduced to the ever changing tech world of gaming (thanks mum). To have seen how technology has progressed over the past four decades has been fascinating and made me want to learn about code and how games were created.</p>
 
-    <p class="about-p">I'm a very creative person with a background in art and music. I think these translate into coding extremely well, and I think I'm fortunate to have the experiences I have gained, albeit some have been terrible. As such, I'm a huge advocate for mental health and wellbeing, and would ultimately like to aim for creating software and apps that can really help other people, especially in times of great anguish.</p>
+        <p class="about-p">I'm a very creative person with a background in art and music. I think these translate into coding extremely well, and I think I'm fortunate to have the experiences I have gained, albeit some have been terrible. As such, I'm a huge advocate for mental health and wellbeing, and would ultimately like to aim for creating software and apps that can really help other people, especially in times of great anguish.</p>
 
-    <p class="about-p">If you found any of this interesting and would like to learn more, please: <button src="#">CONTACT ME</button></p>
+        <p class="about-p">If you found any of this interesting and would like to learn more, please: <button src="#">CONTACT ME</button></p>
+
+        <!-- javascript for bootstrap -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
