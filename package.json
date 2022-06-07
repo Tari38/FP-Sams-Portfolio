@@ -1,0 +1,19 @@
+{
+  "name": "fp-sams-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tari38/FP-Sams-Portfolio.git"
+  },
+  "author": "Samantha Dorrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tari38/FP-Sams-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Tari38/FP-Sams-Portfolio#readme"
+}
