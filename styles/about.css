@@ -6,12 +6,14 @@ body {
     margin-top: 80px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    background-color: rgb(226, 237, 248);
+    background-image: linear-gradient(to top, #213556, #273a5b, #2c3f61, #324566, #374a6c, #3b4f74, #40557b, #445a83, #49618e, #4e689a, #5370a5, #5877b1);
+    padding: 20px;
 }
 
 /* navbar */
 
 nav {
+    background-image: linear-gradient(to top, #213556, #273a5b, #2c3f61, #324566, #374a6c, #3b4f74, #40557b, #445a83, #49618e, #4e689a, #5370a5, #5877b1);
     height: 100px;
     width: 100%;
     justify-content: space-evenly;
@@ -23,7 +25,8 @@ nav {
     top: 10px;
     left: 30px;
     padding: 10px 20px;
-    color: rgb(170, 207, 241);
+    color: rgb(228, 237, 245);
+    letter-spacing: 2px;
 }
 
 .navbar-nav {
@@ -34,15 +37,16 @@ nav {
 
 .nav-link {
     font-family: 'Lobster', cursive;
-    color: rgb(170, 207, 241);
+    color: rgb(176, 209, 240);
     text-align: center;
     list-style-type: none;
     padding: 0 10px;
+    letter-spacing: 2px;
 }
 
-.nav-link::after, .nav-link::before {
+/* .nav-link::after, .nav-link::before {
     content: '|';
-}
+} */
 
 .nav-link:hover {
     background-color:rgb(170, 207, 241);
@@ -54,7 +58,7 @@ nav {
 }
 
 .nav-item {
-    font-size: 2rem;
+    font-size: 1.3rem;
     justify-content: space-evenly;
     text-align: center;
 }
@@ -110,24 +114,33 @@ nav {
 
 .about-header {
     font-family: "Montserrat Alternates", monospace;
-    color:rgb(61, 98, 133);
-    margin-top: 120px;
+    color:rgb(213, 218, 223);
+    margin-top: 70px;
+}
+article {
+    background-color: #fff;
+    margin: 10px;
+}
+section {
+    border: 1px solid rgb(170, 207, 241);
+    background-color:rgb(221, 236, 250);
+    padding-top: 20px;
 }
 
-section > .card {
+.avatar-card {
     max-height: 300px;
     max-width: auto;
 }
 
-img {
+.avatar {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #213556;
     border-radius: 50%;
-}
-
-#img {
-    background-image: url("./images/gamer-bg.webp");
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #111;
 }
 
 .hr-line {
@@ -153,4 +166,29 @@ button:hover {
     color: rgb(170, 207, 241);
     transform: scale(1.1);
     transition: .3s ease-in;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+.card-img, .card-img-360 {
+    max-height: 200px;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: #e9ebee;
+}
+
+.card-title {
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+footer {
+    color: rgb(153, 161, 197);
+    padding: 20px;
+    font-size: 0.8rem;
 }
