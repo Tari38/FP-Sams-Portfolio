@@ -153,6 +153,11 @@ section {
     padding: 20px;  
     border: 2px dashed rgb(170, 207, 241);
 }
+.contact-p {
+    padding: 20px;  
+    border: 2px dashed rgb(170, 207, 241);
+    color: #fff;
+}
 
 button {
     background-color:rgb(170, 207, 241);
@@ -174,8 +179,8 @@ button:hover {
     padding: 5px;
 }
 .card-img, .card-img-360 {
-    max-height: 200px;
-    max-width: 90%;
+    height: fit-content;
+    width: 90%;
     margin: auto;
     padding: 10px;
     background-color: #e9ebee;
