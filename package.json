@@ -2,7 +2,9 @@
   "name": "fp-sams-portfolio",
   "version": "1.0.0",
   "description": "",
+
   "main": "index.html",
+
   "scripts": {
     "test": "jest --watchAll --silent"
   },
