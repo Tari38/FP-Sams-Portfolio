@@ -36,7 +36,7 @@ nav {
 }
 
 .nav-link {
-    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
     color: rgb(176, 209, 240);
     text-align: center;
     list-style-type: none;
@@ -44,9 +44,12 @@ nav {
     letter-spacing: 2px;
 }
 
-/* .nav-link::after, .nav-link::before {
-    content: '|';
-} */
+.nav-link::after {
+    content: ']';
+}
+.nav-link::before {
+    content: '[';
+}
 
 .nav-link:hover {
     background-color:rgb(170, 207, 241);
