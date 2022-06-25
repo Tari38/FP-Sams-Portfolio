@@ -2,9 +2,11 @@
   "name": "fp-sams-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "home.html",
+
+  "main": "index.html",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --silent"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/Tari38/FP-Sams-Portfolio#readme",
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
