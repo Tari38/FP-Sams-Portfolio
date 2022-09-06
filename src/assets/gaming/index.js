@@ -1,0 +1,14 @@
+export { default as c64cass } from "./commodore64-cass.jpg";
+export { default as c64key } from "./commodore64-key.jpg";
+export { default as c64mouse } from "./Commodore64-mouse.jpg";
+export { default as gamecube } from "./gamecube.jpg";
+export { default as nes } from "./nes.jpg";
+export { default as nintendo64 } from "./nintendo64.jpg";
+export { default as ps2 } from "./ps2.jpg";
+export { default as ps4 } from "./ps4.png";
+export { default as psone} from "./psone.jpg";
+export { default as snes } from "./snes.jpg";
+export { default as wii } from "./wii.jpg";
+export { default as xbox } from "./xbox.jpg";
+export { default as xbox360 } from "./xbox360.jpg";
+export { default as violin } from "./violin.jpg";

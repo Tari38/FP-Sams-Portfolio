@@ -1,0 +1,94 @@
+.about-container-top, .about-me-container {
+    background-color: rgb(68, 112, 129);
+    padding: 10px;
+    border: solid 3px rgb(63, 174, 218);
+    border-radius: 20px;
+}
+
+.about-header {
+    font-family: "Montserrat Alternates", cursive;
+    color:rgb(213, 218, 223);
+}
+
+
+.avatar-container {
+    max-height: 300px;
+    max-width: auto;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #213556;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    background-color: #111;
+}
+
+.about-p {
+    padding: 20px;  
+    font-family: "Merriweather", sans-serif;
+}
+.contact-p {
+    padding: 20px;  
+    border: 2px dashed rgb(170, 207, 241);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.about-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    min-width: 180px;
+}
+
+.card-img, .card-CardImg-360 {
+    max-height: 150px;
+    max-width: 150px;
+    background-size: contain;
+    margin: auto;
+    padding: 10px;
+    background-color: #e9ebee;
+    border: solid 3px rgb(63, 174, 218);
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+    background-color: rgb(68, 112, 129);
+    border: solid 3px rgb(63, 174, 218);
+    border-radius: 0 0 20px 20px;
+    width: 150px;
+    margin: auto;
+}
+
+.card-title {
+    font-family: "Montserrat Alternates", cursive;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.contact-a {
+    color: rgb(245, 252, 255);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .avatar-container {
+        max-height: 200px;
+    }
+    .about-card-group {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

@@ -1,27 +1,42 @@
 {
-  "name": "fp-sams-portfolio",
-  "version": "1.0.0",
-  "description": "",
-
-  "main": "index.html",
-
-  "scripts": {
-    "test": "jest --watchAll --silent"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tari38/FP-Sams-Portfolio.git"
-  },
-  "author": "Samantha Dorrell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tari38/FP-Sams-Portfolio/issues"
-  },
-  "homepage": "https://github.com/Tari38/FP-Sams-Portfolio#readme",
+  "name": "fp-samantha-dorrell",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "react-minimal-pie-chart": "^8.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "jest": "^28.1.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
