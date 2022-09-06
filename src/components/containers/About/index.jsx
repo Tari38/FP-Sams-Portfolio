@@ -132,7 +132,7 @@ export default function About() {
         <br />
 
         <Container className="about-container-bottom">
-          <p className="contact-p">If you found any of this interesting and would like to learn more you can  <span><a className="contact-a" href="../Contact/">Contact</a></span> me and view my Projects using the links above.
+          <p className="contact-p">If you found any of this interesting and would like to learn more you can  <span><a className="contact-a" href="../Contact/">Contact</a></span> me and view my <span><a className="contact-a" href="../Gallery/">Projects Gallery</a></span> using the links above.
           Thank you!</p>
 
         </Container>

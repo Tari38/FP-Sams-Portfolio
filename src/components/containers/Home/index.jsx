@@ -8,7 +8,7 @@ export default function Home() {
         
         <Container className="welcome-container shadow">
             <h2>Hi there, I'm Sam!</h2>
-                <h3>I am part of the Al-Jazari Cohort at Futureproof and have recently graduated as a Fullstack Software Engineer!</h3>
+                <h3>I am part of the Al-Jazari Cohort at Futureproof where I am a Tech Trainee!</h3>
                 <hr />
                 <p>This website will showcase who I am and the projects I work on and complete.</p>
                     <p>For more info about me, please see my  
