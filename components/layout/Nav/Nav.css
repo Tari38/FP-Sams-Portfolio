@@ -1,0 +1,43 @@
+.navbar {
+    background-color: inherit;
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-btn {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: inherit;
+  border: none;
+  padding-top: 8px;
+}
+.dropdown-btn:hover {
+  background-color: inherit;
+  color: rgb(213, 218, 223);
+}
+
+.nav-item, .nav-links, .nav-brand {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-tog {
+    background-color: #fff;
+}
+
+.nav-item:hover, .nav-links:hover, .nav-brand:hover {
+  color: rgb(213, 218, 223);
+}
+
+.offcanvas-body {
+  background-color: rgb(12, 67, 88);
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    content: "Sam Dorrell | Tech Trainee";
+    text-transform: uppercase;
+  }
+}
