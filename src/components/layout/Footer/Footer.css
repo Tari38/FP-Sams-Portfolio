@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    background-color: inherit;
+    margin-bottom: 0;
+    display: block;
+}
+
+footer > p {
+    color: #fff;
+}
