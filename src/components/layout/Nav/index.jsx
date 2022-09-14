@@ -7,7 +7,7 @@ export default function NavBar() {
         {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 navbar shadow" fixed="top">
           <Container fluid>
-          <NavbarBrand href="/" className="nav-brand">Samantha Dorrell | Tech Trainee</NavbarBrand>
+          <NavbarBrand href="/" className="nav-brand">Samantha Dorrell | Software Engineer</NavbarBrand>
             <Navbar.Toggle className="nav-tog" aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
